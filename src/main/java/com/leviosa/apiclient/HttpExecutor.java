@@ -1,8 +1,8 @@
-package com.leviosa.api;
+package com.leviosa.apiclient;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.CharStreams;
-import com.leviosa.api.exceptions.InvalidResponseException;
+import com.leviosa.apiclient.exceptions.InvalidResponseException;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;

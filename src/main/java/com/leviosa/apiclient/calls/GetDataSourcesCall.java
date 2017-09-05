@@ -1,8 +1,8 @@
-package com.leviosa.api.calls;
+package com.leviosa.apiclient.calls;
 
-import com.leviosa.api.HttpExecutor;
-import com.leviosa.api.deserializers.GetDataSourcesOutputDeserializer;
-import com.leviosa.api.model.DataSource;
+import com.leviosa.apiclient.HttpExecutor;
+import com.leviosa.apiclient.deserializers.GetDataSourcesOutputDeserializer;
+import com.leviosa.apiclient.model.DataSource;
 
 import java.util.List;
 import java.util.Objects;

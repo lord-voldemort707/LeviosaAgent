@@ -1,4 +1,4 @@
-package com.leviosa.api.exceptions;
+package com.leviosa.apiclient.exceptions;
 
 public class APIResponseParsingException extends APICallException {
 

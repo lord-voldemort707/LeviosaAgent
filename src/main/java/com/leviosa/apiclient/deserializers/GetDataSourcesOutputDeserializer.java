@@ -1,10 +1,10 @@
-package com.leviosa.api.deserializers;
+package com.leviosa.apiclient.deserializers;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.leviosa.api.exceptions.APIResponseParsingException;
-import com.leviosa.api.model.DataSource;
+import com.leviosa.apiclient.exceptions.APIResponseParsingException;
+import com.leviosa.apiclient.model.DataSource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class GetDataSourcesOutputDeserializer {
         try {
             return deserializeDataSources(data);
         } catch (Exception e) {
-            throw new APIResponseParsingException("Unable to parse the api response:\n" + data + "\n", e);
+            throw new APIResponseParsingException("Unable to parse the apiclient response:\n" + data + "\n", e);
         }
     }
 

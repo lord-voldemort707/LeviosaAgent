@@ -2,7 +2,7 @@ package com.leviosa.agent;
 
 import com.leviosa.agent.config.CommandLineArgsParser;
 import com.leviosa.agent.config.Config;
-import com.leviosa.api.LeviosaAPIClient;
+import com.leviosa.apiclient.LeviosaAPIClient;
 
 public class Main {
 

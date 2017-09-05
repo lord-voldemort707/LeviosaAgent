@@ -1,11 +1,10 @@
-package com.leviosa.api;
+package com.leviosa.apiclient;
 
-import com.leviosa.api.calls.GetDataSourcesCall;
-import com.leviosa.api.deserializers.GetDataSourcesOutputDeserializer;
-import com.leviosa.api.model.DataSource;
+import com.leviosa.apiclient.calls.GetDataSourcesCall;
+import com.leviosa.apiclient.deserializers.GetDataSourcesOutputDeserializer;
+import com.leviosa.apiclient.model.DataSource;
 import org.apache.http.impl.client.HttpClients;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 

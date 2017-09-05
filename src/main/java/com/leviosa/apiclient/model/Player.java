@@ -1,4 +1,4 @@
-package com.leviosa.api.model;
+package com.leviosa.apiclient.model;
 
 import com.google.common.base.Preconditions;
 import lombok.Getter;

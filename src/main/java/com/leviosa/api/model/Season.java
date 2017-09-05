@@ -1,7 +1,6 @@
 package com.leviosa.api.model;
 
 import com.google.common.base.Preconditions;
-import lombok.Builder;
 import lombok.Getter;
 
 import java.util.Objects;

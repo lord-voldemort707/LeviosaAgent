@@ -4,12 +4,11 @@ import com.leviosa.agent.config.CommandLineArgsParser;
 import com.leviosa.agent.config.Config;
 import com.leviosa.api.LeviosaAPIClient;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String [] args) {
         Config config = Config.fromFile("leviosaAgent.properties", new CommandLineArgsParser(args));
-        System.out.println(config.toString());
+        LeviosaAPIClient apiClient = LeviosaAPIClient.create(config.getLeviosaApiDomain());
+        System.out.println(apiClient.getDataSourcesForPlayers());
     }
 }
